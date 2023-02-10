@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sockets</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Introducción a Sockets</h3>
+
+        <hr>
+        <span for="lblStatus">Server Status:</span>
+        <span for="lblConectado" id="lblConectado" class="text-success">Conectado</span>
+        <span for="lblDesconectado" id="lblDesconectado" class="text-danger">Desconectado</span>
+
+        <hr>
+
+        <div>
+            <input type="text" id="txtMensaje" class="input-control">
+            <button id="btnEnviar" class="button-control">
+                Enviar
+            </button>
+        </div>
+    </div>
+
+    <script src="./socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./js/socket-client.js">
+    </script>
+</body>
+</html>

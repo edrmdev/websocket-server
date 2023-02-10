@@ -1,0 +1,12 @@
+.container {
+
+    margin: 0 auto;
+}
+
+.text-success {
+    color: rgb(0, 131, 0);
+}
+
+.text-danger{ 
+    color:rgb(213, 1, 1);
+}
